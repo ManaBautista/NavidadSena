@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+body {
+
+    background-color:yellowgreen;
+    margin: 0;
+    padding: 0;
+}
+.box01 {
+    display: flex;
+    flex-wrap: row;
+    flex-wrap: wrap;
+}
+.caja01{
+    background-color:yellow;
+    padding: 2rem;
+    width: 33.33%;
+    border: 2rem;
+    border-color: white;
+}
+.caja02{
+    background-color: blue;
+    padding: 2rem;
+    width: 33.33%;
+}
+.caja03{
+    background-color: red;
+    padding: 2rem;
+    width: 33.33%;
+}
+
+.box02 {
+    display: flex;
+    flex-wrap: row;
+    flex-wrap: wrap;
+}
+.caja04{
+    background-color: royalblue;
+    padding: 10rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.regalo{
+    background-color: royalblue;
+    padding: 20rem;
+    width: 100%;
+}
+.box03 {
+    display: flex;
+    flex-wrap: row;
+    flex-wrap: wrap;
+}
+.caja05{
+    background-color: yellow;
+    padding: 13rem;
+    width: 33.33%;
+}
+.caja06{
+    background-color: blue;
+    padding: 13rem;
+    width: 33.33%;
+}
+.caja07{
+    background-color: red;
+    padding: 13rem;
+    width: 33.33%;
+}
+.box04 {
+    display: flex;
+    flex-wrap: row;
+    flex-wrap: wrap;
+}
+.estiloA{
+    background-color: rgb(235, 48, 48);
+    width: 20%;
+    padding: 5rem;
+    flex-wrap: row;
+    flex-wrap: wrap;
+}
+
+.estiloB{
+    background-color: rgb(95, 213, 95);
+    width: 20%;
+    padding: 5rem;
+    flex-wrap: row;
+    flex-wrap: wrap;
+
+}
+.circuloA{
+    background-color: rgb(235, 48, 48);
+    padding: 10rem;
+    width: 100%;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: row;
+    flex-wrap: wrap;
+}
+.circuloB{
+    background-color: rgb(95, 213, 95);
+    padding: 10rem;
+    width: 100%;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: row;
+    flex-wrap: wrap;
+}
+.box05 {
+    display: flex;
+    flex-wrap: row;
+    flex-wrap: wrap;
+}
+.pie{
+    background-color:  black;
+    padding: 4rem;
+    width: 100%;
+    color: aliceblue;
+    align-items: center;
+    font-size: x-large;
+}
+a {
+    background-color: rgb(227 114 144);
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: rgb(254 212 32);
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-style: oblique;
+}
+/*Paginas Niños*/
+.slider{
+    background-color: rgb(243 147 35);
+    padding: 5rem;
+    width: 100%;
+}
+.si{
+    background-color: green;
+    padding: 15rem;
+    width: 50%;
+}
+.no{
+    background-color:red;
+    padding: 15rem;
+    width: 50%;
+}
